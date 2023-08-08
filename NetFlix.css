@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    cursor: pointer;
+    font-family: "Roboto";
+}
+
+/*Nav bar */
+.logo {
+    height: 6vh;
+    padding-left: 3vw;
+}
+
+.navbarIcon {
+    font-size: 2vh;
+    border: 1px solid white;
+    padding: 1vw;
+    color: white;
+}
+
+.NavTitle {
+    color: white;
+    margin-left: 1vw;
+    border: none;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*home page styling*/
+.netFlix-home-page {
+    background-color: black;
+    color: white;
+    padding: 5vw;
+    padding-top: 5vh;
+}
+
+.nv1 {
+    margin-left: 5vw;
+    color: white;
+}
+
+/* End */
+
+/*profile img*/
+.profile-Img {
+    height: 3vh;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.home-Page-Title-1 {
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.home-Page-Title-2 {
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.home-Page-Title-3 {
+    font-size: 1.8vh;
+    font-weight: bold;
+}
+
+.home-Page-description {
+    font-size: 1.2vh;
+    color: #999997;
+}
+
+.movie-rating {
+    font-size: 2vh;
+    color: #ed0c31;
+}
+
+.avengers-Img {
+    height: 35vh;
+    margin-top: 2vh;
+}
+
+.buttonPrevNext {
+    font-size: 4vh;
+    background-color: black;
+    padding: 1vh;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+/*Movie content*/
+.movie-content {
+    animation: 3s fadein ease;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 3;
+    }
+}
+
+/*home page-buttons */
+.btn1 {
+    background-color: #ed0c31;
+    color: white;
+    border: none;
+    font-size: 1.5vh;
+    padding: 0.8vh;
+    min-width: 10vw;
+
+    margin-right: 2vw;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.5vh;
+    min-width: 10vw;
+    padding: 0.8vh;
+}
+
+/*trailer */
+.trailerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2vw;
+
+}
+
+.btn-close {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.modal-title {
+    color: black;
+    font-size: 3vh;
+}
+
+.watchContainer {
+    margin-top: 35vh;
+}
+
+.slide1 {
+    height: 40vh;
+    width: 40vh;
+}
+
+.slide2 {
+    height: 30vh;
+    width: 30vh;
+}
+
+.title {
+    font-size: 2vh !important;
+}
+
+.title1 {
+    color: white;
+}
+
+.btn3 {
+    border: none;
+}
+
+.trailerBtn {
+    font-size: 3vh;
+    color: white;
+}
+
+/*scroller */
+.card-scroller {
+
+    padding: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    column-gap: 0.2rem;
+}
+
+.card-scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.movie-img {
+    max-height: 25vh;
+}
+
+.scroller-item-card {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-left: 1vw;
+}
+
+.scroller-item {
+    position: relative;
+}
+
+/*rating shows */
+.rating-shows {
+    font-size: 1vh;
+}
+
+.movie-rating1 {
+    color: #ed0c31;
+}
